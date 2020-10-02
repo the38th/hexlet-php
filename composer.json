@@ -1,5 +1,13 @@
 {
     "name": "the38th/hexlet-php",
+    "autoload": {
+        "files": [
+            "src/Runner.php"
+        ]
+    },
+    "scripts": {
+    	"phpcs": "phpcs"
+    },
     "type": "project",
     "authors": [
         {
@@ -7,5 +15,10 @@
             "email": "step_al_ul@mail.ru"
         }
     ],
-    "require": {}
+    "require": {
+        "tightenco/collect": "^8.0"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.5"
+    }
 }
